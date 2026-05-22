@@ -1,5 +1,7 @@
 # Multi-view 3D Reconstruction
 
+This notebook was developed as part of a computer vision course project and later prepared as a standalone demonstration of the reconstruction pipeline.
+
 This notebook reconstructs scene structure from three views of the same scene. It estimates sparse 3D points and camera geometry from matched image features, then computes stereo disparity maps from a rectified image pair.
 
 The reconstruction is relative rather than metric. The images do not include a measured camera calibration, so the recovered scale and geometry are approximate.
